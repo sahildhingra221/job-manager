@@ -7,6 +7,24 @@
   color: #1e1e1e; 
 }
 
+
+*::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+*::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+*::-webkit-scrollbar-thumb
+{
+	background-color: gray;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -27,23 +45,6 @@ button {
 a {
   text-decoration: none;
   color: #6725f4;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.d-flex {
-  display: flex;
-}
-
-.align-center {
-  align-items: center;
-}
-
-.justify-between {
-  justify-content: space-between;
 }
 
 h1, h2, h3, h4, h5, h6 {
